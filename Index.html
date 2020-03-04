@@ -1,52 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    <script src="data.js"></script>
+    <script src="app.js"></script>
     <meta charset="utf-8">
     <title>devCodeCamp &middot; Most Wanted</title>
-  </head>
-  <header><center><h2> Hello. I Am Cortana.</h2></center></header>
-  <header><center><h3>Who may I Help You Find?</h3></center></header>
-  <body>
-    <style>
-      body {
-          background-color: black;
-          background-image: radial-gradient(
-            rgba(0, 150, 0, 0.75), black 120%
-          );
-          height: 100vh;
-          margin: 0;
-          overflow: hidden;
-          padding: 2rem;
-          color: white;
-          font: 1.3rem Inconsolata, monospace;
-          text-shadow: 0 0 5px #C8C8C8;
-          &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: repeating-linear-gradient(
-              0deg,
-              rgba(black, 0.15),
-              rgba(black, 0.15) 1px,
-              transparent 1px,
-              transparent 2px
-            );
-            pointer-events: none;
-          }
-        }
-        ::selection {
-          background: #0080FF;
-          text-shadow: none;
-        }
-        pre {
-          margin: 0;
-        }
-      </style>
-    <button onclick="app(data)">Start Searching</button>
-    <script src="this.data.js"></script>
-    <script src="this.app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <body style="background-image: linear-gradient(black, green);">
+    <center>
+      <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:  lightgray; border-width: 5px;">Welcome Master Chief</h1>
+	  <hr>
+	  <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:  lightgray; border-width: 5px;">I Am Cortana, Who Are We Looking For?</h1>
+      <hr>
+      <a class="button" onclick= app(data) >Begin Search</a>>
+      <hr>
+    </div>
+    <div>
+      <script src="data.js"></script>
+      <script src="app.js"></script>
+	</div>
+	<div class="overlay"></div>
+	<div class="scanline"></div>
+<div class="wrapper">	
+<div class="content clearfix">
+		
+		<header class="site clearfix">
+		<div class="col one">
+			<img src="http://cdn.fansided.com/wp-content/blogs.dir/281/files/2013/09/Cortana-Screenshot.png" alt="Cortana Search Base Image" width="1200" height="800" id="Cortana Image" />
+		</div>
+		</header>
   </body>
 </html>
